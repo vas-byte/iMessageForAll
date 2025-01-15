@@ -1,7 +1,7 @@
 
 # iMessageForAll
 
- iMessage on Non-Apple products.
+ iMessage on Non-Apple devices.
 
 
 
