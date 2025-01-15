@@ -1,0 +1,9 @@
+#!/bin/sh
+exec <"$0" || exit; read v; read v; exec /usr/bin/osascript - "$@"; exit
+
+on run {targetChatID, targetMessage}
+    tell application "Messages"
+        set targetChat to chat id targetChatID
+        send targetMessage to targetChat
+    end tell
+end run
