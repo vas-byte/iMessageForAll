@@ -1,7 +1,7 @@
 
 # iMessageForAll
 
-Run iMessageForAll on Non-Apple products.
+Run iMessage on Non-Apple products.
 
 
 
