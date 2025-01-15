@@ -1,7 +1,7 @@
 
-# iMessage
+# iMessageForAll
 
-Run iMessage on Non-Apple products.
+Run iMessageForAll on Non-Apple products.
 
 
 
@@ -36,36 +36,36 @@ Web  | Untested
 
 ### Clone repository
 ```
-git clone https://github.com/vas-byte/iMessage.git
+git clone https://github.com/vas-byte/iMessageForAll.git
 ```
 
 ### Setup Firebase
 Create new Project in Firebase
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/New%20Project.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/New%20Project.png)
 
 Enable Firebase Authentication
 
 Enable email/password Authentication
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/email%3Apassword.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/email%3Apassword.png)
 
 Add User
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/create%20user.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/create%20user.png)
 
 Enable Firestore
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/firestore.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/firestore.png)
 
 Enable Firebase Storage
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/storage.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/storage.png)
 
 [Add Firebase project to Flutter](https://firebase.google.com/docs/flutter/setup?hl=en&authuser=0&_gl=1*1055xio*_ga*MTMzNjA2MTE4OC4xNzM0MjQ5Mjg1*_ga_CW55HF8NVT*MTczNjgzNjM5OC42LjEuMTczNjgzNjY2OS41NC4wLjA.&platform=ios)
 
 Retrieve Credentials Service Account for MacOS Utility
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/service%20account.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/service%20account.png)
 
 Place Credentials in MacOS Utility folder
 
 Update Path to service account JSON file
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/credentials.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/credentials.png)
 
 ### Setup E2E Encryption
 [Generate two sets of RSA Keys](https://cryptotools.net/rsagen)
@@ -133,11 +133,11 @@ Remove from the key data
 
 Select a public and private key from each key pair above and update the variables ```pubkey``` and ```privkey``` in ```main.py``` of MacOS Utilities      
 
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/RSA%20Python.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/RSA%20Python.png)
 
 Using the other pair, update the variables ```pubkey``` and ```privkey``` in ```main.dart``` within the Android Application folder
 
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/RSA%20Flutter.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/RSA%20Flutter.png)
 
 Generate AES Key
 
@@ -145,15 +145,15 @@ Generate AES Key
 python3 keygen.py
 ```
 
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/Screenshot%202025-01-14%20at%207.02.45%E2%80%AFpm.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/Screenshot%202025-01-14%20at%207.02.45%E2%80%AFpm.png)
 
 Update ```symmkey``` in ```messages.dart``` within the Android Application folder using the base-16 string
 
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/Screenshot%202025-01-14%20at%207.05.40%E2%80%AFpm.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/Screenshot%202025-01-14%20at%207.05.40%E2%80%AFpm.png)
 
 Update ```Key``` in ```main.py``` of MacOS Utilities using the byte-array
 
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/Screenshot%202025-01-14%20at%207.06.33%E2%80%AFpm.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/Screenshot%202025-01-14%20at%207.06.33%E2%80%AFpm.png)
 
 Do the same for the initialization vector.
 
@@ -165,16 +165,16 @@ and ```iv``` (byte array) in ```main.py``` of MacOS Utilities
 
 - ```fd``` is a timestamp of the first date to import messages from when starting the application
 
-- ```connection``` is the path to the iMessage SQLLite DB. This is typically ```~/Library/Messages/chat.db```
+- ```connection``` is the path to the iMessageForAll SQLLite DB. This is typically ```~/Library/Messages/chat.db```
 
 - ```connection2``` is the path to the contacts database. This is typically ```~/Library/Application Support/AddressBook/AddressBook-v22.abcddb```
 
 ### MacOS Permissions
-To access the iMessage Database and Contacts Database, some further measures may be required before simply running the script.
+To access the iMessageForAll Database and Contacts Database, some further measures may be required before simply running the script.
 
 Granting terminal Full Disk Access
 
-![](https://github.com/vas-byte/iMessage/blob/main/Images/Instructions/Full%20Disk%20Access.png)
+![](https://github.com/vas-byte/iMessageForAll/blob/main/Images/Instructions/Full%20Disk%20Access.png)
 
 ### Installing Libraries
 For MacOS utility, install the required python libraries using the command below:
@@ -202,28 +202,28 @@ In order for this program to run correctly, the MacOS Utility must be running wh
 
   <div>
     <p>Login Page</p>
-    <img src="https://github.com/vas-byte/iMessage/blob/main/Images/Screenshots/login.png" alt="Login Page" width="200"/>
+    <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/login.png" alt="Login Page" width="200"/>
   </div>
   <br>
   <div>
      <p>Forgot Password Page</p>
-    <img src="https://github.com/vas-byte/iMessage/blob/main/Images/Screenshots/forgot%20password.png" alt="Forgot Password Page" width="200"/>
+    <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/forgot%20password.png" alt="Forgot Password Page" width="200"/>
   <br>
   </div>
   <br>
   <div>
     <p>Conversations Page</p>
-    <img src="https://github.com/vas-byte/iMessage/blob/main/Images/Screenshots/conversations.png" alt="Conversations Page" width="200"/>
+    <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/conversations.png" alt="Conversations Page" width="200"/>
   </div>
   <br>
   <div>
     <p>New Conversation Page</p>
-    <img src="https://github.com/vas-byte/iMessage/blob/main/Images/Screenshots/new%20conversation.png" alt="New Conversation Page" width="200"/>
+    <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/new%20conversation.png" alt="New Conversation Page" width="200"/>
   </div>
   <br>
   <div>
     <p>Individual Chat Page</p>
-    <img src="https://github.com/vas-byte/iMessage/blob/main/Images/Screenshots/chat.png" alt="Individual Chat Page" width="200"/>
+    <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/chat.png" alt="Individual Chat Page" width="200"/>
   </div>
 
 </div>
