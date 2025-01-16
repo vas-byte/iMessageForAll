@@ -178,6 +178,7 @@ Granting terminal Full Disk Access
 
 ### Installing Libraries
 For MacOS utility, install the required python libraries using the command below:
+
 ```pip3 install -r requirements.txt```
 
 ### Run
