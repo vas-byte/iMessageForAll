@@ -201,28 +201,28 @@ In order for this program to run correctly, the MacOS Utility must be running wh
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; justify-items: center;">
 
   <div>
-    <p>Login Page</p>
+    <p><b>Login Page</b></p>
     <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/login.png" alt="Login Page" width="200"/>
   </div>
   <br>
   <div>
-     <p>Forgot Password Page</p>
+     <p><b>Forgot Password Page</b></p>
     <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/forgot%20password.png" alt="Forgot Password Page" width="200"/>
   <br>
   </div>
   <br>
   <div>
-    <p>Conversations Page</p>
+    <p><b>Conversations Page</b></p>
     <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/conversations.png" alt="Conversations Page" width="200"/>
   </div>
   <br>
   <div>
-    <p>New Conversation Page</p>
+    <p><b>New Conversation Page</b></p>
     <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/new%20conversation.png" alt="New Conversation Page" width="200"/>
   </div>
   <br>
   <div>
-    <p>Individual Chat Page</p>
+    <p><b>Individual Chat Page</b></p>
     <img src="https://github.com/vas-byte/iMessageForAll/blob/main/Images/Screenshots/chat.png" alt="Individual Chat Page" width="200"/>
   </div>
 
